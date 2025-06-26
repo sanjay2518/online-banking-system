@@ -1,0 +1,54 @@
+{
+    "customers": [
+        {
+            "customer_id": "1",
+            "name": "sanjay",
+            "email": "sanjay@gmail.com",
+            "phone": "9898989898",
+            "accounts": [
+                {
+                    "account_number": "ACC-1",
+                    "balance": 100000.0,
+                    "account_type": "Savings",
+                    "transactions": [
+                        {
+                            "amount": 100000.0,
+                            "transaction_type": "Deposit",
+                            "timestamp": "2025-05-17T10:29:19.095366",
+                            "account_number": "ACC-1",
+                            "related_account": null
+                        },
+                        {
+                            "amount": 49000.0,
+                            "transaction_type": "Withdrawal",
+                            "timestamp": "2025-05-17T10:29:29.934109",
+                            "account_number": "ACC-1",
+                            "related_account": null
+                        },
+                        {
+                            "amount": 1000.0,
+                            "transaction_type": "Withdrawal",
+                            "timestamp": "2025-05-17T10:29:54.591379",
+                            "account_number": "ACC-1",
+                            "related_account": null
+                        },
+                        {
+                            "amount": 50000.0,
+                            "transaction_type": "Withdrawal",
+                            "timestamp": "2025-05-17T10:31:06.223353",
+                            "account_number": "ACC-1",
+                            "related_account": null
+                        },
+                        {
+                            "amount": 100000.0,
+                            "transaction_type": "Deposit",
+                            "timestamp": "2025-05-17T10:31:26.664144",
+                            "account_number": "ACC-1",
+                            "related_account": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
